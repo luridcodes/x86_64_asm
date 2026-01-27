@@ -1,9 +1,10 @@
-# Prerequisites
-*.d
+# remove executables 
+*_exe
 
-# Object files
+# remove text fils 
+*.txt
+
 *.o
-*.ko
 *.obj
 *.elf
 
@@ -11,10 +12,6 @@
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Libraries
 *.lib
