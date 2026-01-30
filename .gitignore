@@ -3,6 +3,7 @@
 
 # remove text fils 
 *.txt
+*.swp
 
 *.o
 *.obj
