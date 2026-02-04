@@ -16,6 +16,11 @@ Through this tutorial, you will learn:
 - How to make your computer do math faster (FPU vs AVX) 
 And much more that is planned! 
 
+In addition, this tutorial implements the following data structures and algorithms (==this is a live table updated whenever a new DSA is implemented==)
+
+| Data Structures | linked list, queues |
+| Algotihms       |                     |
+
 ## How to use this tutorial 
 Begin the tutorial using the blog posts located in the tutorial directory, which will walk you through basic ASM concepts. Each blog post covers a specific topic: 
 1. Hello World in ASM (instructions, registers and syscalls) 
