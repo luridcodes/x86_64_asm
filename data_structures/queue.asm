@@ -35,13 +35,13 @@ _start:
     ; dequeue and print  
     call dequeue            ; returns result in RAX which we can print 
     mov [buffer], rax 
-    UINT32_STRTOINT buffer 
+    UINT32_INTTOSTR buffer 
     PRINT buffer, 4
     PRINT NEWLINE, 1
 
     call dequeue 
     mov [buffer], rax 
-    UINT32_STRTOINT buffer 
+    UINT32_INTTOSTR buffer 
     PRINT buffer, 4
     PRINT NEWLINE, 1
 
