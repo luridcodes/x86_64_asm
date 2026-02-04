@@ -1,3 +1,10 @@
+; *********************************************************
+; * THIS FILE WAS MADE WITH HELP FROM CHATGPT             * 
+; * - fix was implemented using the <temp> and <buffer>   *  
+; *   registers to prevent overwrites during syscalls     * 
+; * - macros were also implemented for economy            * 
+; *********************************************************
+
 %include "_macros.inc" 
 
 SECTION .data
