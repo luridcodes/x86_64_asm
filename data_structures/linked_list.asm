@@ -24,7 +24,7 @@ GLOBAL _start
 ; rdi = item
 ; returns rax = Node*
 ; ---------------------------------------------------------
-; FIXME: this is really inefficient - MMAP takes one page 
+; FIXME: MMAP is really inefficient - takes one page per node 
 ;        (4kB) per allocation per node; it is way more 
 ;        economical to rewrite this to MMAP one ENTIRE 
 ;        buffer and rewrite when full 
